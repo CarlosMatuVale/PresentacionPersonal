@@ -1,3 +1,4 @@
+
 /* En este archivo escriban su CSS */
 
 /* Fonts */
@@ -54,3 +55,50 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+
+
+/* Usar Samsung Galaxy S8 + para la versión movil */
+/* ------------------ HEADER ----------------- */
+
+header {
+    background-color: rgb(200, 194, 255);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    border-bottom: double;
+    border-color: rgb(0, 12, 187);
+}
+
+#logo {
+    width: 30%;
+    max-width: 500px;
+    margin:0%;
+    background-color: white;
+}
+
+a{
+    margin: 2%;
+    font-size: larger;
+    /* border-style: dotted; */
+    padding: 5%;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* ------------------ PRINCIPAL ----------------- */
+
+.principal {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#foto {
+    width: 20%;
+    max-width: 500px;
+    max-height: 500px;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 50%;
+}
