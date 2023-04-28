@@ -83,7 +83,7 @@ a{
     /* border-style: dotted; */
     padding: 5%;
     border-radius: 5%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(140, 255, 150);
 }
 
 /* ------------------ PRINCIPAL ----------------- */
@@ -95,10 +95,57 @@ a{
 }
 
 #foto {
-    width: 20%;
+  
+    width: 100%;
     max-width: 500px;
     max-height: 500px;
-    height: 20%;
+    height: 40%;
     object-fit: cover;
     border-radius: 50%;
+    margin-top: 5%;
+    
+}
+
+/* Se alinea como bloque para que pueda estar apartado el botón */
+#cv {
+    display: inline-block;
+}
+
+#semblanza {
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(200, 194, 255);
+    border-radius: 10px;
+}
+
+/* ------------------ CONTACT ----------------- */
+
+#contact {
+    margin-top: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-size: larger;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgb(140, 255, 150);
+}
+
+/* ------------------ ICONOS ----------------- */
+
+img {
+    width: 10%;
+    margin: 2%;
+}
+
+/* ------------------ ICONOS ----------------- */
+footer {
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    color: white;
+    background-color: rgb(100, 82, 255);
 }
