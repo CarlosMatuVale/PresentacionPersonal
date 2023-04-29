@@ -61,29 +61,37 @@ main {
 /* ------------------ HEADER ----------------- */
 
 header {
-    background-color: rgb(200, 194, 255);
+    /* background-color: rgb(200, 194, 255); */
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     align-content: center;
     align-items: center;
     border-bottom: double;
     border-color: rgb(0, 12, 187);
+
+    width: 100%;
+    height: 12vh;
+
+    /* Posicionamos la cabecera en la parte superior y la fijamos */
+    top: 0;             
+	position: fixed;    
 }
 
 #logo {
-    width: 30%;
-    max-width: 500px;
+    height: 10vh;
+    width: 18vh;
     margin:0%;
     background-color: white;
 }
 
-a{
-    margin: 2%;
-    font-size: larger;
-    /* border-style: dotted; */
-    padding: 5%;
-    border-radius: 5%;
-    background-color: rgb(140, 255, 150);
+header a {
+    margin: 5%;
+    font-size: large;
+}
+
+h1 {
+    font-size: 36px;
 }
 
 /* ------------------ PRINCIPAL ----------------- */
@@ -96,9 +104,9 @@ a{
 
 #foto {
   
-    width: 100%;
-    max-width: 500px;
-    max-height: 500px;
+    width: 80%;
+    max-width: 400px;
+    max-height: 400px;
     height: 40%;
     object-fit: cover;
     border-radius: 50%;
@@ -107,8 +115,14 @@ a{
 }
 
 /* Se alinea como bloque para que pueda estar apartado el botón */
-#cv {
+.boton{
     display: inline-block;
+    margin: 2%;
+    font-size: larger;
+    padding: 2vh;
+    border-radius: 5%;
+    background-color: #af599e;
+    color: white;
 }
 
 #semblanza {
@@ -126,10 +140,13 @@ a{
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
-    font-size: larger;
     padding: 1%;
     border-radius: 10px;
-    background-color: rgb(140, 255, 150);
+    background-color: rgba(175, 89, 158, 0.3) ;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 /* ------------------ ICONOS ----------------- */
@@ -139,13 +156,31 @@ img {
     margin: 2%;
 }
 
-/* ------------------ ICONOS ----------------- */
+/* ------------------ FOOTER ----------------- */
 footer {
     flex-direction: row;
     align-content: center;
     align-items: center;
     text-align: center;
-    padding: 5%;
+    padding: 5vh;
     color: white;
-    background-color: rgb(100, 82, 255);
+    background-color: #af599e;
+}
+
+/* ------------------ DETALLES ----------------- */
+
+/* tipo de letra */
+p, h1, h2, a, footer {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Cada sección de la página cubra toda la pantalla */
+article {
+    padding-top: 10vh;
+    min-height: 100vh;
 }

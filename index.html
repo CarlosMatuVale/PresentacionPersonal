@@ -8,6 +8,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!--Tipo de letra, LOTE Regular 400, Bold 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -23,29 +29,33 @@
 
         <!-- ///////////// Información personal y fotografía ////////////////-->
         <article id="begin" style="text-align: center;">
-            <img id="foto" src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg">
+            <img id="foto" src="img/pexels-athena-2582937.jpg">
             
             <h1> Carlos Matute </h1>
             <p id="semblanza"> Cuento con mas de 10 años de experiencia en servicio ténico para montaje y reparación de computadoras de gamma baja, media y alta.
             Además también he realizado asesoramientos a distancia a personas con problemas o preguntas sobre sus equipos, de modo que puedan tomar las mejores decisiones a la hora de invertir su dinero. </p>
             
-            <a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units" id="cv"> Descargar CV </a>
+            <a class="boton" href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units"> Descargar CV </a>
         </article>
 
         <!-- ////////////// CONTACTOS ///////////////  -->
-        <article id="contact" style="text-align: center;">
-            <h1> Hablemos! </h1>
-            <p> Puedes ver más de mi trabajo en mi linkedin y en mi github. <br>
-                Además, puedes contactarme a través de mi correo electrónico. <br>
-                Todo dando click en los íconos de abajo.
-            </p>
-        </article>
+        <article style="text-align: center;">
+            <div id="contact">
+                <h2> Hablemos! </h2>
+                <p> Puedes ver más de mi trabajo en mi linkedin y en mi github. <br>
+                    Además, puedes contactarme a través de mi correo electrónico. <br>
+                    carlosjmatuvale@gmail.com
+                </p>
+            </div>
         
-        <article id="iconos" style="text-align: center;">
-            <img id="linkedin" src="img/linkedin.png">
-            <img id="github" src="img/github.png">
-            <img id="mail" src="img/mail.png">
+            <div id="iconos" style="text-align: center;">
+                <img id="linkedin" src="img/linkedin.png">
+                <img id="github" src="img/github.png">
+                <a href="mailto:carlosjmatuvale@gmail.com"><img id="mail" src="img/mail.png"></a>
+            </div>
         </article>
+
+
     </section>
 
     <!-- ////////////// Palabra código palante //////////////////// -->
