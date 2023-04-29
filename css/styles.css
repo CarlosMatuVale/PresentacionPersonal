@@ -57,11 +57,10 @@ main {
 */
 
 
-/* Usar Samsung Galaxy S8 + para la versión movil */
+/* --------- Usar Samsung Galaxy S8 + para la versión movil -------------- */
 /* ------------------ HEADER ----------------- */
 
 header {
-    /* background-color: rgb(200, 194, 255); */
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
@@ -183,4 +182,11 @@ p {
 article {
     padding-top: 10vh;
     min-height: 100vh;
+}
+
+section {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
