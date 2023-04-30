@@ -57,8 +57,8 @@ main {
 */
 
 
-/* --------- Usar Samsung Galaxy S8 + para la versión movil -------------- */
-/* ------------------ HEADER ----------------- */
+/* -------------------- Usar Samsung Galaxy S8 + para la versión movil -------------- */
+/* -------------------------------------- HEADER ------------------------------------ */
 
 header {
     background-color: rgb(255, 255, 255);
@@ -86,14 +86,10 @@ header {
 
 header a {
     margin: 5%;
-    font-size: large;
+    font-size: 3vh;
 }
 
-h1 {
-    font-size: 36px;
-}
-
-/* ------------------ PRINCIPAL ----------------- */
+/* ----------------------------------- PRINCIPAL ------------------------------- */
 
 #foto {
   
@@ -107,42 +103,49 @@ h1 {
     
 }
 
+/* Definir un tamaño de letra que dependa de la pantalla */
+h1 {
+    font-size: 5vh;
+}
+
+#semblanza {
+    text-align: center;
+    width: 100%;
+    padding: 4%;
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 10px;
+}
+
 /* Se alinea como bloque para que pueda estar apartado el botón */
 .boton{
     display: inline-block; 
     margin: 2%;
-    font-size: larger;
+    font-size: 3vh;
     padding: 2vh;
     border-radius: 25px;
     background-color: #af599e;
     color: white;
 }
 
-#semblanza {
-    text-align: center;
-    width: 100%;
-    padding: 2%;
-    background-color: rgb(200, 194, 255);
-    border-radius: 10px;
-}
 
-/* ------------------ CONTACT ----------------- */
+/* ------------------------------------ CONTACT --------------------------------- */
 
 #contact {
     margin-top: 40%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
-    padding: 1%;
+    padding: 5%;
     border-radius: 10px;
     background-color: rgba(175, 89, 158, 0.3) ;
 }
 
+/* Definir un tamaño de letra que dependa de la pantalla */
 h2 {
-    font-size: 28px;
+    font-size: 3.7vh;
 }
 
-/* ------------------ ICONOS ----------------- */
+/* ------------------------------------- ICONOS ---------------------------------- */
 /*  Cada ícono enlazado a una dirección mediante anclas */
 
 img {
@@ -150,7 +153,7 @@ img {
     margin: 2%;
 }
 
-/* ------------------ FOOTER ----------------- */
+/* -------------------------------------- FOOTER -------------------------------- */
 footer {
     display: flex;
     justify-content: center;
@@ -161,7 +164,7 @@ footer {
     background-color: #af599e;
 }
 
-/* ------------------ DETALLES ----------------- */
+/* ---------------------------------------- DETALLES --------------------------------- */
 
 /* tipo de letra */
 p, h1, h2, a, footer {
@@ -169,8 +172,9 @@ p, h1, h2, a, footer {
     line-height: 1.2;
 }
 
+/* Definir un tamaño de letra que dependa de la pantalla */
 p {
-    font-size: 18px;
+    font-size: 2.5vh;
 }
 
 /* Cada sección de la página cubra toda la pantalla */
