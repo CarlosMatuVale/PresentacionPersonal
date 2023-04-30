@@ -95,12 +95,6 @@ h1 {
 
 /* ------------------ PRINCIPAL ----------------- */
 
-.principal {
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-
 #foto {
   
     width: 80%;
@@ -115,7 +109,7 @@ h1 {
 
 /* Se alinea como bloque para que pueda estar apartado el botón */
 .boton{
-    display: inline-block;
+    display: inline-block; 
     margin: 2%;
     font-size: larger;
     padding: 2vh;
@@ -158,10 +152,10 @@ img {
 
 /* ------------------ FOOTER ----------------- */
 footer {
-    flex-direction: row;
-    align-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+
     padding: 5vh;
     color: white;
     background-color: #af599e;
@@ -186,9 +180,10 @@ article {
 }
 
 /* Centrando todo */
-section {
+article {
+    display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: start;
     align-items: center;
     text-align: center;
 }
