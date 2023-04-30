@@ -148,9 +148,10 @@ h2 {
 /* ------------------------------------- ICONOS ---------------------------------- */
 /*  Cada ícono enlazado a una dirección mediante anclas */
 
-img {
+#iconos img {
     width: 10%;
-    margin: 2%;
+    margin: 5%;
+    min-width: 60px;
 }
 
 /* -------------------------------------- FOOTER -------------------------------- */
